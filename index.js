@@ -18,7 +18,7 @@ const app = express();
 app.use(cookieParser());
 app.use(express.json())
 app.use(cors({
-  origin: ["http://localhost:5173","https://devfolio-alpha-one.vercel.app/"],
+  origin: ["http://localhost:5173","https://devfolio-alpha-one.vercel.app"],
   // frontend URL,
   credentials: true
 }));
